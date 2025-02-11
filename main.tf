@@ -5,7 +5,7 @@ provider "aws" {
 
 # Local variables block for configuration values
 locals {
-    aws_key = "EC2_AWS_KEY_CLASS"   # SSH key pair name for EC2 instance access
+    aws_key = "MO_AWS-KEYPAIR"   # SSH key pair name for EC2 instance access
 }
 
 # Security Group to allow HTTP and SSH accesss
